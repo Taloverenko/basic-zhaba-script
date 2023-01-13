@@ -23,6 +23,5 @@ let otherObj = {
 };
 otherObj.someOtherMethod = getFullName;
 
-// Меня зовут undefined undefined 
-console.log(otherObj.someMethod());
-console.log(otherObj.someOtherMethod());
+console.log(otherObj.someMethod()); // undefined undefined
+console.log(otherObj.someOtherMethod()); // undefined undefined
