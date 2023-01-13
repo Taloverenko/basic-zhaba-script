@@ -1,0 +1,15 @@
+1) Простые: // Их значения копируются при присваивании
+- boolean
+- number
+- string
+- symbol
+- bigint
+
+2) Нулевые
+- null     // typeof null = 'object'
+- undefined
+
+3) Object  // Ссылочный тип, их значения не копируются при присваивании. Могут иметь несколько значений или вложенные объекты
+object имеет два частных случая
+- array    // (частный случай типа object) type of [] = 'object'
+- function // (частный случай типа object) type of function() = 'function'
