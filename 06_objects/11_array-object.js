@@ -6,3 +6,6 @@ let digits = [1, 3, 5, 7, 9];
 console.log( Object.values(digits) );
 console.log( Object.keys(digits) );
 console.log( Object.entries(digits) );
+
+console.log( typeof {} ); // object
+console.log( typeof [] ); // object
