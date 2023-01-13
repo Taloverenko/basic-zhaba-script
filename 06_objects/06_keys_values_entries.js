@@ -11,7 +11,7 @@ let computer = {
   ramVolume: 16384,
   remFrequency: 3200,
 };
-
+// Функция Object. возвращает списки в виде массива
 console.log( Object.keys(computer) ); // Список имён свойств объекта
 console.log( Object.values(computer) ); // Список значений свойств объекта
 console.log( Object.entries(computer) ); // Список и того и другого
