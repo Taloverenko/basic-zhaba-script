@@ -10,3 +10,11 @@ function getStringValue(unknown) {
   }
   return '';
 }
+
+console.log(getStringValue('Just string'));
+console.log(getStringValue(function() {
+  return new Date().getFullYear();
+}));
+console.log(getStringValue([1, 2, 3]));
+console.log(getStringValue({}));
+console.log(getStringValue(true));
