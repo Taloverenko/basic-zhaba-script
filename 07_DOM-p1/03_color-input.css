@@ -1,0 +1,6 @@
+.color-block {
+  margin-top: 5px;
+  min-height: 500px;
+  width: 100%;
+  border: 1px solid grey;
+}
