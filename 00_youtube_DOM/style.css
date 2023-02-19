@@ -1,0 +1,41 @@
+body {
+  background-color: #ffbbdd;
+  color: #db2626;
+  font-family: monospace;
+  font-size: 22px;
+}
+
+.autos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.autocard {
+  width: 30%;
+  background-color: #fff;
+  color: black;
+  border-radius: 15px;
+  padding: 8px;
+  font-size: 20px;
+}
+
+.autocard h2 {
+  text-align: center;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 10px;
+  background-color: #ffbbdd;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border-color: #db2626;
+  color: #5f1010;
+}
+
+.btn:active {
+  color: #db2626;
+}
